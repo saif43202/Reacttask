@@ -1,14 +1,11 @@
-import React from 'react';
-import './Hello.js';
-import user from './user.js';
+import React from "react";
 
-class Hello extends React.Component {
-	render(){
-		return(
-			<div>
-				<h1>this is hello class component</h1>
-			</div>
-		);
-	}
+function Hello({ city }) {
+  return (
+    <div>
+      <h1>Hello my name is {city}</h1>
+    </div>
+  );
 }
+
 export default Hello;
